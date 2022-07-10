@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  margin-top: 0px;
+  padding: 20px 0px;
+
+}
+
+.hi {
+  font-size: 58px;
+  line-height: 80px;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.nav li {
+  margin-left: 30px;
+
+}
+
+.nav li a {
+  color: rgb(17, 17, 17);
+  font-weight: 600;
+}
+
+.nav li a:hover {
+  color: rgb(53, 124, 255);
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+}
+
+.home {
+  display: flex;
+  margin-top: 100px;
+}
+
+.bo {
+  border-radius: 10px;
+}
+
+.aboutcontainer {
+  display: flex;
+}
+
+.skills-container {
+  display: flex;
+}
+
+.skills-data {
+  justify-content: space-between;
+  position: relative;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(14, 36, 49, 0.15);
+}
+
+.skills-names {
+  display: flex;
+  align-items: center;
+}
+
+.skills__img {
+  border-radius: 10px;
+}
+
+.work__container {
+  row-gap: 30px;
+}
+
+.work__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.work__img img {
+  transition: 1s;
+}
+
+.work__img img:hover {
+  transform: scale(1.1);
+}
+
+.contact__input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contact__form {
+  width: 360px;
+  padding-top: 10px;
+}
+
+.contact__container {
+  justify-items: center;
+}
+
+.contact {
+  margin-top: 120px;
+}
+
+
+.footer {
+  color: #fff;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.work__container {
+  padding-top: 25px;
+}
+
+.work__container {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.flex {
+  display: flex;
+}
